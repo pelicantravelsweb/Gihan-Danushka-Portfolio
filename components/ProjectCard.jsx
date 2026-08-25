@@ -19,6 +19,12 @@ export default function ProjectCard({ project, reverse = false }) {
             </span>
           ))}
         </div>
+
+        {project.url && (
+          <a href={project.url} target="_blank" rel="noreferrer" className={styles.visitLink}>
+            Visit website ↗
+          </a>
+        )}
       </div>
 
       <div className={styles.visuals}>
