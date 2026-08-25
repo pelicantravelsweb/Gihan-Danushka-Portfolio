@@ -1,0 +1,130 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+.scrolled {
+  background: rgba(10, 15, 28, 0.82);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 18px var(--edge);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.mark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: auto;
+}
+
+.markBox {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  background: var(--accent-soft);
+  color: var(--accent-hi);
+  border: 1px solid var(--border-hi);
+  border-radius: 4px;
+  padding: 4px 7px;
+}
+
+.markText {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.links a {
+  transition: color 0.15s ease;
+}
+
+.links a:hover {
+  color: var(--text);
+}
+
+.cta {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 9px 16px;
+  border-radius: 100px;
+  border: 1px solid var(--border-hi);
+  background: var(--surface);
+  white-space: nowrap;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.cta:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.burger span {
+  width: 20px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .links,
+  .cta {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    padding: 8px var(--edge) 22px;
+    gap: 4px;
+    background: rgba(10, 15, 28, 0.96);
+    border-top: 1px solid var(--border);
+  }
+  .mobileMenu a {
+    padding: 12px 4px;
+    font-size: 15px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-muted);
+  }
+  .mobileCta {
+    margin-top: 10px;
+    color: var(--accent-hi) !important;
+    font-weight: 600;
+  }
+}

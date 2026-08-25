@@ -1,0 +1,160 @@
+.wrap {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(36px, 5vw, 72px);
+  align-items: start;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.title {
+  font-size: clamp(24px, 3.2vw, 32px);
+  line-height: 1.25;
+  max-width: 22ch;
+}
+
+.summary {
+  color: var(--text-muted);
+  font-size: 15.5px;
+  line-height: 1.8;
+  max-width: 56ch;
+}
+
+/* Boarding pass card */
+.pass {
+  position: relative;
+  background: linear-gradient(165deg, var(--surface-hi), var(--surface));
+  border: 1px solid var(--border-hi);
+  border-radius: 18px;
+  padding: 26px 26px 0;
+  overflow: hidden;
+}
+
+.passTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding-bottom: 18px;
+}
+
+.passCode {
+  color: var(--accent);
+}
+
+.passRoute {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding-bottom: 22px;
+}
+
+.passLabel {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.passRoute strong {
+  display: block;
+  font-family: var(--display);
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.passEyebrow {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.passPlane {
+  color: var(--teal);
+  font-size: 17px;
+}
+
+.perf {
+  position: relative;
+  height: 1px;
+  border-top: 1px dashed var(--border-hi);
+  margin: 0 -26px;
+}
+
+.perf::before,
+.perf::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--bg);
+}
+
+.perf::before {
+  left: -10px;
+}
+
+.perf::after {
+  right: -10px;
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 24px 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.statValue {
+  display: block;
+  font-family: var(--display);
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--accent-hi);
+}
+
+.statLabel {
+  display: block;
+  margin-top: 4px;
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+
+.barcode {
+  height: 34px;
+  margin: 0 -26px;
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--text-dim) 0px,
+    var(--text-dim) 2px,
+    transparent 2px,
+    transparent 5px,
+    var(--text-dim) 5px,
+    var(--text-dim) 6px,
+    transparent 6px,
+    transparent 10px
+  );
+  opacity: 0.5;
+}
+
+@media (max-width: 860px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+}
