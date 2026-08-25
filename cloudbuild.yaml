@@ -10,6 +10,6 @@ steps:
       - 'deploy'
       - 'gihan-danushka-portfolio'
       - '--image=gcr.io/$PROJECT_ID/gihan-danushka-portfolio:$SHORT_SHA'
-      - '--region=us-central1'
+      - '--region=asia-south2'
       - '--platform=managed'
       - '--allow-unauthenticated'
