@@ -77,11 +77,11 @@ export const webProjects = [
       "Email Inquiry System",
     ],
     url: "https://pelicantravelsandtours.com/",
-    hero: "/images/projects/pelican/hero.png",
+    hero: "/images/projects/pelican/hero.jpg",
     shots: [
-      { src: "/images/projects/pelican/destination-guide.png", caption: "Destination guide — Galle" },
-      { src: "/images/projects/pelican/package-listing.png", caption: "Package listing" },
-      { src: "/images/projects/pelican/package-detail.png", caption: "Package detail" },
+      { src: "/images/projects/pelican/destination-guide.jpg", caption: "Destination guide — Galle" },
+      { src: "/images/projects/pelican/package-listing.jpg", caption: "Package listing" },
+      { src: "/images/projects/pelican/package-detail.jpg", caption: "Package detail" },
     ],
   },
   {
@@ -94,11 +94,11 @@ export const webProjects = [
       "Focused on modern front-end development, SEO optimization, and a user-friendly inquiry form so potential customers can easily submit inquiries and connect with the company.",
     tags: ["Front-End Development", "Responsive Design", "SEO", "Inquiry Form Integration"],
     url: "https://tangerinevacations.com/",
-    hero: "/images/projects/tangerine-vacations/hero.png",
+    hero: "/images/projects/tangerine-vacations/hero.jpg",
     shots: [
-      { src: "/images/projects/tangerine-vacations/brand-introduction.png", caption: "Brand introduction" },
-      { src: "/images/projects/tangerine-vacations/services-overview.png", caption: "Services overview" },
-      { src: "/images/projects/tangerine-vacations/destinations.png", caption: "Destinations" },
+      { src: "/images/projects/tangerine-vacations/brand-introduction.jpg", caption: "Brand introduction" },
+      { src: "/images/projects/tangerine-vacations/services-overview.jpg", caption: "Services overview" },
+      { src: "/images/projects/tangerine-vacations/destinations.jpg", caption: "Destinations" },
     ],
   },
 ];
@@ -120,11 +120,11 @@ export const webSystems = [
       "Database Integration",
       "Payment Gateway Integration",
     ],
-    hero: "/images/projects/hotel-booking/hero.png",
+    hero: "/images/projects/hotel-booking/hero.jpg",
     shots: [
-      { src: "/images/projects/hotel-booking/rates-supplements.png", caption: "Rates & supplements panel" },
-      { src: "/images/projects/hotel-booking/room-inventory.png", caption: "Room inventory controls" },
-      { src: "/images/projects/hotel-booking/shot-4.png", caption: "Admin dashboard" },
+      { src: "/images/projects/hotel-booking/rates-supplements.jpg", caption: "Rates & supplements panel" },
+      { src: "/images/projects/hotel-booking/room-inventory.jpg", caption: "Room inventory controls" },
+      { src: "/images/projects/hotel-booking/shot-4.jpg", caption: "Admin dashboard" },
     ],
   },
 ];
