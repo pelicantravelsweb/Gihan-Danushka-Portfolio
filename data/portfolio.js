@@ -132,14 +132,14 @@ export const webSystems = [
 export const socialPosts = [
   { src: "/images/social/holiday-campaign.jpg", caption: "Festive campaign artwork" },
   { src: "/images/social/hotel-campaign.jpg", caption: "Hotel campaign artwork" },
-  { src: "/images/social/vk-campaign.png", caption: "Promotional artwork" },
-  { src: "/images/social/independence-day.png", caption: "Independence Day campaign" },
+  { src: "/images/social/vk-campaign.jpg", caption: "Promotional artwork" },
+  { src: "/images/social/independence-day.jpg", caption: "Independence Day campaign" },
 ];
 
 export const videoArtworks = [
-  { src: "/images/video-artworks/tangerine-beach-hotel.png", caption: "Tangerine Beach Hotel — video cover" },
-  { src: "/images/video-artworks/royal-palms-beach-hotel.png", caption: "Royal Palms Beach Hotel — video cover" },
-  { src: "/images/video-artworks/grand-hotel.png", caption: "The Grand Hotel — video cover" },
+  { src: "/images/video-artworks/tangerine-beach-hotel.jpg", caption: "Tangerine Beach Hotel — video cover" },
+  { src: "/images/video-artworks/royal-palms-beach-hotel.jpg", caption: "Royal Palms Beach Hotel — video cover" },
+  { src: "/images/video-artworks/grand-hotel.jpg", caption: "The Grand Hotel — video cover" },
 ];
 
 export const videoProjects = [
