@@ -11,4 +11,4 @@ ENV NODE_ENV=production
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["sh", "-c", "next start -H 0.0.0.0 -p ${PORT}"]
+CMD ["sh", "-c", "npx next start -H 0.0.0.0 -p ${PORT}"]
