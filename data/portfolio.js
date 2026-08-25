@@ -76,6 +76,7 @@ export const webProjects = [
       "Backend Development",
       "Email Inquiry System",
     ],
+    url: "https://pelicantravelsandtours.com/",
     hero: "/images/projects/pelican/hero.png",
     shots: [
       { src: "/images/projects/pelican/shot-1.png", caption: "Destination guide — Galle" },
@@ -93,6 +94,7 @@ export const webProjects = [
     details:
       "Focused on modern front-end development, SEO optimization, and a user-friendly inquiry form so potential customers can easily submit inquiries and connect with the company.",
     tags: ["Front-End Development", "Responsive Design", "SEO", "Inquiry Form Integration"],
+    url: "https://tangerinevacations.com/",
     hero: "/images/projects/tangerine-vacations/hero.png",
     shots: [
       { src: "/images/projects/tangerine-vacations/shot-1.png", caption: "Brand introduction" },
@@ -133,14 +135,14 @@ export const webSystems = [
 export const socialPosts = [
   { src: "/images/social/post-1.jpg", caption: "Festive campaign artwork" },
   { src: "/images/social/post-2.jpg", caption: "Brand social post" },
-  { src: "/images/social/post-3.jpg", caption: "Promotional artwork" },
-  { src: "/images/social/post-4.jpg", caption: "Campaign creative" },
+  { src: "/images/social/post-3.png", caption: "Promotional artwork" },
+  { src: "/images/social/post-4.png", caption: "Campaign creative" },
 ];
 
 export const videoArtworks = [
-  { src: "/images/video-artworks/thumb-1.jpg", caption: "Tangerine Beach Hotel — video cover" },
-  { src: "/images/video-artworks/thumb-2.jpg", caption: "Promotional video artwork" },
-  { src: "/images/video-artworks/thumb-3.jpg", caption: "Promotional video artwork" },
+  { src: "/images/video-artworks/thumb-1.png", caption: "Tangerine Beach Hotel — video cover" },
+  { src: "/images/video-artworks/thumb-2.png", caption: "Promotional video artwork" },
+  { src: "/images/video-artworks/thumb-3.png", caption: "Promotional video artwork" },
 ];
 
 export const videoProjects = [
