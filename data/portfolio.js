@@ -79,10 +79,9 @@ export const webProjects = [
     url: "https://pelicantravelsandtours.com/",
     hero: "/images/projects/pelican/hero.png",
     shots: [
-      { src: "/images/projects/pelican/shot-1.png", caption: "Destination guide — Galle" },
-      { src: "/images/projects/pelican/shot-2.png", caption: "Package listing" },
-      { src: "/images/projects/pelican/shot-3.png", caption: "Package detail" },
-      { src: "/images/projects/pelican/shot-4.png", caption: "Inquiry flow" },
+      { src: "/images/projects/pelican/destination-guide.png", caption: "Destination guide — Galle" },
+      { src: "/images/projects/pelican/package-listing.png", caption: "Package listing" },
+      { src: "/images/projects/pelican/package-detail.png", caption: "Package detail" },
     ],
   },
   {
@@ -97,10 +96,9 @@ export const webProjects = [
     url: "https://tangerinevacations.com/",
     hero: "/images/projects/tangerine-vacations/hero.png",
     shots: [
-      { src: "/images/projects/tangerine-vacations/shot-1.png", caption: "Brand introduction" },
-      { src: "/images/projects/tangerine-vacations/shot-2.png", caption: "Services overview" },
-      { src: "/images/projects/tangerine-vacations/shot-3.png", caption: "Destinations" },
-      { src: "/images/projects/tangerine-vacations/shot-4.png", caption: "Contact & inquiry" },
+      { src: "/images/projects/tangerine-vacations/brand-introduction.png", caption: "Brand introduction" },
+      { src: "/images/projects/tangerine-vacations/services-overview.png", caption: "Services overview" },
+      { src: "/images/projects/tangerine-vacations/destinations.png", caption: "Destinations" },
     ],
   },
 ];
@@ -124,25 +122,24 @@ export const webSystems = [
     ],
     hero: "/images/projects/hotel-booking/hero.png",
     shots: [
-      { src: "/images/projects/hotel-booking/shot-1.png", caption: "Rates & supplements panel" },
-      { src: "/images/projects/hotel-booking/shot-2.png", caption: "Room inventory controls" },
-      { src: "/images/projects/hotel-booking/shot-3.png", caption: "Calendar rate management" },
+      { src: "/images/projects/hotel-booking/rates-supplements.png", caption: "Rates & supplements panel" },
+      { src: "/images/projects/hotel-booking/room-inventory.png", caption: "Room inventory controls" },
       { src: "/images/projects/hotel-booking/shot-4.png", caption: "Admin dashboard" },
     ],
   },
 ];
 
 export const socialPosts = [
-  { src: "/images/social/post-1.jpg", caption: "Festive campaign artwork" },
-  { src: "/images/social/post-2.jpg", caption: "Brand social post" },
-  { src: "/images/social/post-3.png", caption: "Promotional artwork" },
-  { src: "/images/social/post-4.png", caption: "Campaign creative" },
+  { src: "/images/social/holiday-campaign.jpg", caption: "Festive campaign artwork" },
+  { src: "/images/social/hotel-campaign.jpg", caption: "Hotel campaign artwork" },
+  { src: "/images/social/vk-campaign.png", caption: "Promotional artwork" },
+  { src: "/images/social/independence-day.png", caption: "Independence Day campaign" },
 ];
 
 export const videoArtworks = [
-  { src: "/images/video-artworks/thumb-1.png", caption: "Tangerine Beach Hotel — video cover" },
-  { src: "/images/video-artworks/thumb-2.png", caption: "Promotional video artwork" },
-  { src: "/images/video-artworks/thumb-3.png", caption: "Promotional video artwork" },
+  { src: "/images/video-artworks/tangerine-beach-hotel.png", caption: "Tangerine Beach Hotel — video cover" },
+  { src: "/images/video-artworks/royal-palms-beach-hotel.png", caption: "Royal Palms Beach Hotel — video cover" },
+  { src: "/images/video-artworks/grand-hotel.png", caption: "The Grand Hotel — video cover" },
 ];
 
 export const videoProjects = [
@@ -177,12 +174,12 @@ export const videoProjects = [
 ];
 
 export const photography = [
-  { src: "/images/photography/shot-1.jpg", caption: "Ella, hill country" },
-  { src: "/images/photography/shot-2.jpg", caption: "Portrait, natural light" },
-  { src: "/images/photography/shot-3.jpg", caption: "Portrait series" },
-  { src: "/images/photography/shot-4.jpg", caption: "Editorial portrait" },
-  { src: "/images/photography/shot-5.jpg", caption: "Lifestyle portrait" },
-  { src: "/images/photography/shot-6.jpg", caption: "Travel portrait" },
+  { src: "/images/photography/portrait-01.jpeg", caption: "Ella, hill country" },
+  { src: "/images/photography/portrait-02.jpeg", caption: "Portrait, natural light" },
+  { src: "/images/photography/portrait-03.jpeg", caption: "Portrait series" },
+  { src: "/images/photography/portrait-04.jpeg", caption: "Editorial portrait" },
+  { src: "/images/photography/portrait-05.jpeg", caption: "Lifestyle portrait" },
+  { src: "/images/photography/portrait-06.jpeg", caption: "Travel portrait" },
 ];
 
 export const experience = [

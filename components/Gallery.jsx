@@ -45,6 +45,8 @@ export default function Gallery({ items, variant = "wide" }) {
               alt={item.caption || ""}
               fill
               sizes="(max-width: 700px) 50vw, 320px"
+                quality={60}
+                loading="lazy"
               className={styles.thumbImg}
             />
             {item.caption && <span className={styles.caption}>{item.caption}</span>}
@@ -70,6 +72,7 @@ export default function Gallery({ items, variant = "wide" }) {
                 fill
                 className={styles.stageImg}
                 sizes="90vw"
+                quality={75}
               />
             </div>
             {items[openIndex].caption && (
